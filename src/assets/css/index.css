@@ -1,0 +1,20 @@
+@import "nullstyle.css";
+
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply px-4 py-2.5 rounded-md text-white text-base;
+}
+
+.form-error {
+    @apply text-red-600 w-44 text-left text-sm mt-1
+}
+
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Inter-Regular, sans-serif;
+    }
+}
